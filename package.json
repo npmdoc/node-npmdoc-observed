@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"observed",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "observed",
+    "description": "api documentation for [observed (v1.1.2)](http://aheckmann.github.io/observed) [![npm package](https://img.shields.io/npm/v/npmdoc-observed.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-observed) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-observed.svg)](https://travis-ci.org/npmdoc/node-npmdoc-observed)",
     "devDependencies": {
-        "observed": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "observed": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-observed",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-observed",
+    "keywords": [
+        "documentation",
+        "observed"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_observed.js",
+    "name": "npmdoc-observed",
+    "nameAlias": "npmdoc_observed",
+    "nameOriginal": "npmdoc-observed",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-observed"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
