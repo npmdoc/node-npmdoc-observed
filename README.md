@@ -1,9 +1,11 @@
 # api documentation for  [observed (v1.1.2)](http://aheckmann.github.io/observed)  [![npm package](https://img.shields.io/npm/v/npmdoc-observed.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-observed) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-observed.svg)](https://travis-ci.org/npmdoc/node-npmdoc-observed)
 #### observeable objects the way you want em
 
-[![NPM](https://nodei.co/npm/observed.png?downloads=true)](https://www.npmjs.com/package/observed)
+[![NPM](https://nodei.co/npm/observed.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/observed)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-observed/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-observed_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-observed/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-observed/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-observed/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-observed/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-observed/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-observed/build/screenCapture.npmPackageListing.svg)
 
@@ -17,8 +19,7 @@
 
 {
     "author": {
-        "name": "Aaron Heckmann",
-        "email": "aaron.heckmann+github@gmail.com"
+        "name": "Aaron Heckmann"
     },
     "bugs": {
         "url": "https://github.com/aheckmann/observed/issues/new"
@@ -50,13 +51,11 @@
     "main": "lib/observed.js",
     "maintainers": [
         {
-            "name": "aaron",
-            "email": "aaron.heckmann@gmail.com"
+            "name": "aaron"
         }
     ],
     "name": "observed",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/aheckmann/observed.git"
@@ -74,16 +73,6 @@
     "version": "1.1.2"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module observed](#apidoc.module.observed)
-
-
-
-# <a name="apidoc.module.observed"></a>[module observed](#apidoc.module.observed)
 
 
 
