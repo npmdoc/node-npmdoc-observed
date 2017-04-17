@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="http://aheckmann.github.io/observed"
-
-    >observed (v1.1.2)</a>
+    <a href="http://aheckmann.github.io/observed">observed (v1.1.2)</a>
 </h1>
 <h4>observeable objects the way you want em</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.observed">module observed</a><ol>
 
@@ -130,13 +123,13 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function Observable(subject, parent, prefix) {
-  if (&#x27;object&#x27; != typeof subject)
-    throw new TypeError(&#x27;object expected. got: &#x27; + typeof subject);
+  if ('object' != typeof subject)
+    throw new TypeError('object expected. got: ' + typeof subject);
 
   if (!(this instanceof Observable))
     return new Observable(subject, parent, prefix);
 
-  debug(&#x27;new&#x27;, subject, !!parent, prefix);
+  debug('new', subject, !!parent, prefix);
 
   Emitter.call(this);
   this._bind(subject, parent, prefix);
@@ -231,3 +224,4 @@
     ]
 </div>
 </div>
+</body></html>
