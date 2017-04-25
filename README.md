@@ -1,4 +1,7 @@
-# api documentation for  [observed (v1.1.2)](http://aheckmann.github.io/observed)  [![npm package](https://img.shields.io/npm/v/npmdoc-observed.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-observed) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-observed.svg)](https://travis-ci.org/npmdoc/node-npmdoc-observed)
+# npmdoc-observed
+
+#### basic api documentation for  [observed (v1.1.2)](http://aheckmann.github.io/observed)  [![npm package](https://img.shields.io/npm/v/npmdoc-observed.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-observed) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-observed.svg)](https://travis-ci.org/npmdoc/node-npmdoc-observed)
+
 #### observeable objects the way you want em
 
 [![NPM](https://nodei.co/npm/observed.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/observed)
@@ -70,7 +73,8 @@
             "debug": "~2.1.1"
         }
     },
-    "version": "1.1.2"
+    "version": "1.1.2",
+    "bin": {}
 }
 ```
 
